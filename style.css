@@ -64,11 +64,11 @@ nav ul li a:hover::after{
 
 
 
-
+/*burahin mo tu, testing lng tu*/
 @media only screen and(max-width:600px){
     #header{
         background-image: url(images/phone-background.png);
-
+        background-position:center;
     }
     .header-text{
         margin-top: 100%;
