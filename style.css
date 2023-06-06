@@ -69,6 +69,7 @@ nav ul li a:hover::after{
     #header{
         background-image: url(./images/phone-background.png);
         background-position:center;
+        background-size: cover;
     }
     
     
