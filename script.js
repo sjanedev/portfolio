@@ -12,3 +12,6 @@ function openTab(tabname){
     var activeContent = document.getElementById(tabname);
     activeContent.classList.add("active-tab");
 }
+function onSubmit(){
+    alert("Under Construction");
+}
