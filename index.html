@@ -9,17 +9,23 @@
     <script src="https://kit.fontawesome.com/2970c157f7.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <dialog id="modal">
+        <p>Message sent successfully</p>
+
+    </dialog>
     <div id="header">
         <div class="container">
             <nav>
                 <img src="./images/sjanedev-logo.png" class="logo">
-                <ul>
+                <ul id="side-menu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
             <div class="header-text">
                 <p>UI/UX Designer</p>
@@ -159,17 +165,25 @@
                     <a href="./files/Sarah Jane Santos - Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form onsubmit="onSubmit()">
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
+        <div class="copyright">
+            <p>Copyright &#169; Sarah made with <i class="fa-solid fa-heart"></i></p>
+        </div>
     </div>
 
-   <script src="./script.js"></script>
+    
+
+
+   <script type="text/javascript" src="./config.js"></script>
+   <script type="text/javascript" src="./script.js"></script> 
 </body>
 </html> 
