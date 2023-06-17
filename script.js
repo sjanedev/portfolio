@@ -38,6 +38,7 @@ const scriptURL = config.GOOGLE_SHEETS_URL
         setTimeout(function(){
             modal.close();
         },5000)
+        document.getElementById("contact").scrollIntoView();
         form.reset()
       })
       .catch(error => console.error('Error!', error.message))
