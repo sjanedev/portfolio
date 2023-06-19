@@ -8,6 +8,7 @@
 }
 body{
     line-height: 1.6;
+    background-color: #3fc2ee;
 }
 h1{
     font-size: 36px;
@@ -23,18 +24,33 @@ form {
     margin-bottom: 60px;
 
 }
-
+.logo{
+    height: 200px; 
+}
+.logo-container{
+    /* background-color: #138065; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
 
 #search-input {
     width: 60% ;
     max-width: 400px;
     padding: 10px 20px;
     border: none;
-    box-shadow: 0 0 6px rgba(5, 0, 0, 0.2);
+    box-shadow: 0 0 6px rgba(5, 0, 0, 0.2) inset;
     border-radius: 5px;
     font-size: 18px;
+    font-weight: 500;
     color: #333;
+    background-color: #008bba00;
 }
+input:valid{
+    background-color: #3fc2ee;
+}
+
 #search-button {
     padding: 10px 20px;
     background-color: #138065;
@@ -74,6 +90,7 @@ form {
 .search-result a{
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
     color: #333;
     display: block;
     padding: 10px;
