@@ -1,3 +1,13 @@
+window.onload = function(){
+  
+  window.setTimeout(function(){
+    const headerText = document.querySelector(".header-text");
+    headerText.style.visibility = "visible";
+    headerText.style.opacity = "1";
+    console.log("test");
+  },2000);
+};
+
 var tabLinks = document.getElementsByClassName("tab-links");
 var tabContents = document.getElementsByClassName("tab-contents");
 var sideMenu = document.getElementById("side-menu");
