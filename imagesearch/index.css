@@ -85,6 +85,7 @@ input:valid{
     overflow: hidden;
     background-color: #138065;   
     text-decoration: none;
+    
 }
 /* .search-result{
     margin-bottom: 60px;
@@ -107,13 +108,11 @@ input:valid{
 }
 .image-text{
     font-size: 20px;
-    
     text-align: center;
     color: #fff;
     display: block;
     padding: 10px;
     text-transform: capitalize;
-
 }
 #show-more-button{
     background-color: #008cba;
@@ -132,13 +131,19 @@ input:valid{
     .search-results{
         padding: 20px;
     }
-    .search-result{
+    /* .search-result{
         width: 45%;
-    }    
+    }     */
+    .search-results a{
+        width: 45%;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .search-result{
+    /* .search-result{
         width: 100%;
-    }   
+    }    */
+    .search-results a{
+        width: 100%;
+    }
 }

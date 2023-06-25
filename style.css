@@ -115,6 +115,10 @@ nav ul li a:hover::after{
 .about-col-2{
     flex-basis: 60%;
 }
+.about-col-2 .game-list{
+    margin-left: 30px;
+    list-style-type: circle;
+}
 .sub-title{
     font-size: 60px;
     font-weight: 500;
@@ -340,8 +344,8 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
-.copyright i{
-    color: var(--color4);
+.copyright i, .about-col-2 i{
+    color: var(--color6);
 }
 /* --------------------css small screen --------------------- */
 nav .fa-solid{
