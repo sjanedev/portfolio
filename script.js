@@ -4,8 +4,14 @@ window.onload = function(){
     const headerText = document.querySelector(".header-text");
     headerText.style.visibility = "visible";
     headerText.style.opacity = "1";
-    console.log("test");
-  },2000);
+    // console.log("test");
+  },500);
+  window.setTimeout(function(){
+    const nav = document.querySelector("nav");
+    nav.style.visibility = "visible";
+    nav.style.opacity = "1";
+    // console.log("test");
+  },1000);
 };
 
 var tabLinks = document.getElementsByClassName("tab-links");

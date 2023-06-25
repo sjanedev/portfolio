@@ -32,7 +32,7 @@ body{
     background-size: cover;
     /*pinalitan ung position para ung image nag reresize sa right size-adjust*/
     background-position:right;
-}
+} 
 .logo{
     width: 200px;
 }
@@ -45,6 +45,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 nav ul li{
     display: inline-block;
