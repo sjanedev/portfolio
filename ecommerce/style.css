@@ -455,6 +455,89 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+/* shop */
+#page-header{
+    background-image: url(./images/banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;  
+}
+#page-header h2, #page-header p{
+    color: #fff;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;    
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* single product */
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+#prodetails .single-pro-details button{
+    background: #088178;
+    color: #fff;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+
+
 
 /* Media */
 @media (max-width:799px) {
@@ -489,7 +572,9 @@ footer .copyright{
     #mobile i{
         color: #1a1a1a;
         font-size: 24px;
-        padding-left: 20px;
+    }
+    #mobile a{
+        margin-right: 15px;
     }
     #close{
         display: initial;
@@ -543,6 +628,7 @@ footer .copyright{
     }
     #header{
         padding: 10px 30px;
+        height: 10vh;
     }
     #logo{
         height: 40px;
@@ -556,7 +642,8 @@ footer .copyright{
     #hero{
         padding: 0 20px;
         /* background-image: url("./images/phone-background.png"); */
-        background-position: top 0 right 25%;
+        background-position: top 0 right 15%;
+        height: 90vh;
     }
     #feature{
         justify-content: space-between;
@@ -590,5 +677,22 @@ footer .copyright{
     #newsletter .form{
         width: 100%;
     }
+    footer .copyright{
+        text-align: center;
+    }  
+    /* single product */
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-pro-details{
+        width: 100%;
+    }
+
+
 
 }
