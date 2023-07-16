@@ -122,6 +122,10 @@ nav ul li a:hover::after{
     margin-left: 30px;
     list-style-type: circle;
 }
+.about-col-2 .game-list li{
+    margin-left: 30px;
+    list-style-type: circle;
+}
 .sub-title{
     font-size: 60px;
     font-weight: 500;
